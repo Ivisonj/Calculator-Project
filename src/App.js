@@ -18,7 +18,7 @@ const App = () => {
           <Button label="7"/>
           <Button label="8"/>
           <Button label="9"/>
-          <Button label="*"/>
+          <Button label="x"/>
         </Row>   
         <Row>
           <Button label="4"/>
