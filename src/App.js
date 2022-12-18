@@ -107,34 +107,32 @@ const App = () => {
       <Content>
         <Input value={currentNumber}/>
         <Row>
-          <Button label="AC" onClick={handleOnClear}/>
-          <Button label="C"  onClick={() => handleAddNumber('C')}/>
-          <Button label="%"  onClick={handlePorNumber}/>
-          <Button label="/"  onClick={handleDivNumber}/>
+          <Button buttonColor="#FFA500" label="AC" onClick={handleOnClear}/>
+          <Button buttonColor="#FFA500" label="%"  onClick={handlePorNumber}/>
+          <Button buttonColor="#FFA500" label="/"  onClick={handleDivNumber}/>
         </Row>  
         <Row>
-          <Button label="7"  onClick={() => handleAddNumber('7')}/>
-          <Button label="8"  onClick={() => handleAddNumber('8')}/>
-          <Button label="9"  onClick={() => handleAddNumber('9')}/>
-          <Button label="x"  onClick={handleMultNumber}/>
+          <Button buttonColor="" label="7"  onClick={() => handleAddNumber('7')}/>
+          <Button buttonColor="" label="8"  onClick={() => handleAddNumber('8')}/>
+          <Button buttonColor="" label="9"  onClick={() => handleAddNumber('9')}/>
+          <Button buttonColor="#FFA500" label="x"  onClick={handleMultNumber}/>
         </Row>   
         <Row>
-          <Button label="4"  onClick={() => handleAddNumber('4')}/>
-          <Button label="5"  onClick={() => handleAddNumber('5')}/>
-          <Button label="6"  onClick={() => handleAddNumber('6')}/>
-          <Button label="-"  onClick={handleSubNumber}/>
+          <Button buttonColor="" label="4"  onClick={() => handleAddNumber('4')}/>
+          <Button buttonColor="" label="5"  onClick={() => handleAddNumber('5')}/>
+          <Button buttonColor="" label="6"  onClick={() => handleAddNumber('6')}/>
+          <Button buttonColor="#FFA500" label="-"  onClick={handleSubNumber}/>
         </Row>   
         <Row>
-          <Button label="1"  onClick={() => handleAddNumber('1')}/>
-          <Button label="2"  onClick={() => handleAddNumber('2')}/>
-          <Button label="3"  onClick={() => handleAddNumber('3')}/>
-          <Button label="+"  onClick={(handleSumNumber)} />
+          <Button buttonColor="" label="1"  onClick={() => handleAddNumber('1')}/>
+          <Button buttonColor="" label="2"  onClick={() => handleAddNumber('2')}/>
+          <Button buttonColor="" label="3"  onClick={() => handleAddNumber('3')}/>
+          <Button buttonColor="#FFA500" label="+"  onClick={(handleSumNumber)} />
         </Row>   
         <Row>
-          <Button label=" "/>
-          <Button label="0"  onClick={() => handleAddNumber('0')}/>
-          <Button label="."  onClick={() => handleAddNumber('.')}/>
-          <Button label="="  onClick={handleEquals}/>
+          <Button buttonColor="" label="0"  onClick={() => handleAddNumber('0')}/>
+          <Button buttonColor="" label="."  onClick={() => handleAddNumber('.')}/>
+          <Button buttonColor="#FF4500" label="=" onClick={handleEquals}/>
         </Row> 
       </Content>
     </Container>
