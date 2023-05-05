@@ -1,6 +1,6 @@
 # Calculadora Básica em React
 
-<img src="assets/img/Templates - Pokedex.png" alt="Pokedex" style="width: 600px; height: 500px;">
+<img src="assets/img/calculator.png" alt="Calculator" style="width: 600px; height: 500px;">
 
 ## Descrição
 
