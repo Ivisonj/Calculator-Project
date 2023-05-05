@@ -1,4 +1,4 @@
-# Calculadora Básica em React
+# Calculadora Básica
 
 <img src="assets/img/calculator.png" alt="Calculator" style="width: 600px; height: 500px;">
 
